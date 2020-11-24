@@ -13,4 +13,3 @@ From the ViolentMonkey dashboard, Add Script and choose Add From URL.
 **Custom report color formatter.** Rigor displays color thresholds on Executive Dashboards. Custom Reports are much more powerful, and allow charts as well as tables of data. But they are very black and white so let's fix that. As a bonus, the script also sets the window title to match the name of the report, which helps when you have multiple tabs open.
 
  * [gm-rigor-custom-reports.js](./src/gm-rigor-custom-reports.js)
- * Raw URL to add to GM: [gm-rigor-custom-reports.js](./raw/main/src/gm-rigor-custom-reports.js)
