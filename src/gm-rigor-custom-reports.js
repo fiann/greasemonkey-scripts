@@ -24,7 +24,7 @@ const styles = `
     .budget-green { background-clip: content-box; background-color: #e3fcef !important; }
     .budget-yellow { background-clip: content-box; background-color: #fffae5 !important; }
     .budget-red { background-clip: content-box; background-color: #ffebe5 !important; }
-    .budget-brightred { background-clip: content-box; background-color: crimson !important; color: white; font-weight: bold;  }
+    .budget-brightred { background-clip: content-box; /* background-color: crimson !important; color: white; */ color: crimson; font-weight: bold;  }
   </style>
 `;
 $("head").append($(styles));
