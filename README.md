@@ -6,7 +6,7 @@ GreaseMonkey scripts for Rigor and other tools that make my life a bit easier
 
 Install GreaseMonkey, or a modern clone such as [ViolentMonkey](https://violentmonkey.github.io/).
 
-From the ViolentMonkey dashboard, Add Script and choose Add From URL.
+From the ViolentMonkey dashboard, Add Script and choose Add From URL. You will need the "raw" button from the code page.
 
 ## Script index
 
