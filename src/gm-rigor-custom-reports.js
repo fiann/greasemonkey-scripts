@@ -9,22 +9,33 @@
 // @description 11/23/2020, 2:01:51 PM
 // ==/UserScript==
 
+
 const budgets = {
   "Mean First Byte Time" : { green: 0.5, red: 1.0 },
   "Mean First Contentful Paint Time" : { green: 2.0, red: 4.0 },
   "Mean Speed Index" : { green: 4300, red: 5800 },
   "Mean Time to Interactive" : { green: 3.8, red: 7.3 },
-  "Mean Total Image Size" : { green: 800, red: 1000 },
-  "Mean Total Video Size" : { green: 1500, red: 2500 }
+  "Mean Largest Contentful Paint" : { green: 2.0, red: 4.0 },
+  "Mean Total Blocking Time" : { green: 0.3, red: 0.6 },
+  "Mean Cumulative Layout Shift" : { green: 0.1, red: 0.25 },
+  "Mean Total Content Size" : { green: 2500, red: 3500 },
+  "Mean Total Image Size" : { green: 1200, red: 2000 },
+  "Mean Total Video Size" : { green: 1500, red: 2500 },
+  "Mean Total JavaScript Size" : { green: 500, red: 1000 },
+  "Mean Total CSS Size" : { green: 150, red: 250 },
+  "Mean Total Font Size" : { green: 150, red: 200 },
+  "Mean Video Count" : { green: 2, red: 5 },
+  "Mean Font Count" : { green: 5, red: 6 },
+  "Mean JavaScript Count" : { green: 30, red: 50 },
+  "Mean CSS Count" : { green: 10, red: 20 },
 };
-  
 const styles = `
   <style type="text/css">
     .budget-button { float: right; background-image: linear-gradient(to right, lawngreen, yellow, red); }
-    .budget-green { background-clip: content-box; background-color: #e3fcef !important; }
-    .budget-yellow { background-clip: content-box; background-color: #fffae5 !important; }
-    .budget-red { background-clip: content-box; background-color: #ffebe5 !important; }
-    .budget-brightred { background-clip: content-box; /* background-color: crimson !important; color: white; */ color: crimson; font-weight: bold;  }
+    .budget-green { background-clip: content-box; background-color: #C6E6D7 !important; }
+    .budget-yellow { background-clip: content-box; background-color: #F9EE9F !important; }
+    .budget-red { background-clip: content-box; background-color: #F3C5C4 !important; }
+    .budget-brightred { background-clip: content-box; color: crimson !important; color: crimson; font-weight: bold; border: 1px solid crimson }
   </style>
 `;
 $("head").append($(styles));
