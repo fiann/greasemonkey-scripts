@@ -12,7 +12,7 @@
 
 const budgets = {
   "Mean First Byte Time" : { green: 0.5, red: 1.0 },
-  "Mean First Contentful Paint Time" : { green: 2.0, red: 4.0 },
+  "Mean First Contentful Paint Time" : { green: 1.0, red: 3.0 },
   "Mean Speed Index" : { green: 4300, red: 5800 },
   "Mean Time to Interactive" : { green: 3.8, red: 7.3 },
   "Mean Largest Contentful Paint" : { green: 2.0, red: 4.0 },
