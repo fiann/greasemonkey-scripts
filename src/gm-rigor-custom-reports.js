@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name        Custom Report tweaks for rigor.com
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/fiann/greasemonkey-scripts/
 // @match       https://monitoring.rigor.com/reports/*
 // @grant       none
 // @version     1.0
 // @run-at      document-idle
 // @author      Fiann O'Hagan <fiann@thisisoptimal.com>
-// @description 11/23/2020, 2:01:51 PM
 // ==/UserScript==
 
 
